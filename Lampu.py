@@ -1,4 +1,4 @@
-# Lampu Otomatis-OR
+# Lampu Otomatis-AND
 
 saklar_a = True
 saklar_b = True
