@@ -29,26 +29,24 @@ Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombi
 | False | True | False | Alaram Keamanan Aktif |
 | False | False | True | Alaram Keamanan Aktif |
 
-## 4. Pilihan Transportasi - OR
+## 4. Pilihan Mode - XOR
 
-| Bus | Kereta | Ojek | Hasil |
-|---|---|---|---|
-| False | False | False | TRANSPORTASI TIDAK TERSEDIA |
-| True | False | False | TRANSPORTASI TERSEDIA |
-| False | True | False | TRANSPORTASI TERSEDIA |
-| False | False | True | TRANSPORTASI TERSEDIA |
-| True | True | False | TRANSPORTASI TERSEDIA |
+| Mode Pesawat | Mode Gaming | Hasil |
+|---|---|---|
+| False | False | Kedua Mode Tidak Aktif |
+| True | False | Mode Pesawat/Mode Gaming Aktif |
+| False | True | Mode Pesawat/Mode Gaming Aktif |
+| True | True | Kedua Mode Tidak Aktif  |
 
 ## 5. Juara Umum - AND
 
 | Keaktifan | Nilai Tinggi | Persyaratan | Pengalaman | Sertifikat | Hasil |
 |---|---|---|---|---|---|
-| False | False | False | MEDIA PENYIMPANAN TIDAK TERSEDIA |
-| True | False | False | MEDIA PENYIMPANAN TERSEDIA |
-| False | True | False | MEDIA PENYIMPANAN TERSEDIA |
-| False | False | True | MEDIA PENYIMPANAN TERSEDIA |
-| True | True | False | MEDIA PENYIMPANAN TERSEDIA |
-
+| False | False | False | |
+| True | False | False | 
+| False | True | False |
+| False | False | True | 
+| True | True | False | 
 ## 6. Mode Kipas - XOR
 
 | Level 1 | Level 2 | Level 3 | Hasil |
@@ -58,20 +56,20 @@ Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombi
 | False | True | false | Kipas Dapat Menyala |
 | True | True | True | Kipas Tidak Dapat Menyala |
 
-## 7. Mode Kehadiran - XOR
+## 7. Lampu Otomatis - AND
 
-| Hadir Online | Hadir Offline | Hasil |
-|---|---|---|
-| False | False | MODE KEHADIRAN TIDAK VALID |
-| True | False | MODE KEHADIRAN VALID |
-| False | True | MODE KEHADIRAN VALID |
-| True | True | MODE KEHADIRAN TIDAK VALID |
+| Saklar A | Saklar B | Saklar C | Hasil |
+|---|---|---|---|
+| False | False | True | Lampu Otomatis Tidak Menyala |
+| True | False | True | Lampu Otomatis Tidak Menyala |
+| False | True | False | Lampu Otomatis Tidak Menyala |
+| True | True | True | Lampu Otomatis Menyala |
 
-## 8. Jenis Keanggotaan - XOR
+## 8. 
 
-| Anggota Reguler | Anggota Premium | Hasil |
-|---|---|---|
-| False | False | KEANGGOTAAN TIDAK VALID |
-| True | False | KEANGGOTAAN VALID |
-| False | True | KEANGGOTAAN VALID |
-| True | True | KEANGGOTAAN TIDAK VALID |
+| Saklar A | Saklar B | Saklar C | Hasil |
+|---|---|---|---|
+| False | False | True | Lampu Otomatis Tidak Menyala |
+| True | False | True | Lampu Otomatis Tidak Menyala |
+| False | True | False | Lampu Otomatis Tidak Menyala |
+| True | True | True | Lampu Otomatis Menyala |
