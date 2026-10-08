@@ -1,3 +1,5 @@
+# Seleksi Ujian-AND
+
 aktif = False 
 nilai_memenuhi = False
 prasyarat = True 
@@ -6,7 +8,7 @@ sertifikat =True
 
 # Model logika
 lulus = aktif and nilai_memenuhi and prasyarat 
-prioritas = pengalaman or sertifikat
+prioritas = pengalaman and sertifikat
 
 # Output hasil seleksi
 if lulus:
