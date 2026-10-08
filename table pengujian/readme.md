@@ -42,11 +42,12 @@ Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombi
 
 | Keaktifan | Nilai Tinggi | Persyaratan | Pengalaman | Sertifikat | Hasil |
 |---|---|---|---|---|---|
-| False | False | False | |
-| True | False | False | 
-| False | True | False |
-| False | False | True | 
-| True | True | False | 
+| False | False | False | False | False | Peserta Gagal Meraih Juara, Peserta Tidak Mendapat Uang |
+| True | False | False | True | True | Peserta Gagal Juara, Peserta Mendapat Uang 10 Juta |
+| True| True | True | False | True | Peserta Juara 1 Nasional, Peserta Tidak Mendapat Uang |
+| False | False | True | True | True | Peserta Gagal Meraih Juara, Peserta Mendapat Uang 10 Juta |
+| True | True | True | True | True | Peserta Juara 1 Nasional, Peserta Mendapat Uang 10 Juta |
+
 ## 6. Mode Kipas - XOR
 
 | Level 1 | Level 2 | Level 3 | Hasil |
@@ -65,7 +66,7 @@ Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombi
 | False | True | False | Lampu Otomatis Tidak Menyala |
 | True | True | True | Lampu Otomatis Menyala |
 
-## 8. 
+## 8. Seleksi Ujian - AND
 
 | Saklar A | Saklar B | Saklar C | Hasil |
 |---|---|---|---|
