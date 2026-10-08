@@ -4,7 +4,6 @@ ban = True
 bensin = False
 mesin = False 
 
-
 # Model logika
 motor_berjalan = ban and bensin and mesin 
 
